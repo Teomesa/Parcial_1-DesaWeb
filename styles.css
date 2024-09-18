@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('Fondo.jpg');
+    background-size: 550px;
+    color: white;
+    text-align: center;
+}
+
+header h1, header h2 {
+    margin: 0;
+    padding: 10px;
+}
+
+header h1 {
+    font-size: 36px;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 5px white,     /* Sombra blanca cerca del texto */
+                 0 0 10px grey,    /* Sombra más lejos */
+                 0 0 15px grey,    /* Difuminado blanco */
+                 0 0 20px cadetblue, /* Sombra azul alrededor */
+                 0 0 30px cadetblue, /* Sombra azul más difusa */
+                 0 0 40px cadetblue; /* Difuminado final */
+}
+
+
+header h2 {
+    font-size: 24px;
+    color: salmon;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 15px;
+    padding: 10px;
+    overflow: hidden;
+    background-color: coral;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    background-color: blue;
+    border-radius: 10px;
+}
+
+.content .card {
+    margin: 15px auto;
+    padding: 10px;
+    width: 80%;
+    background-color: rgba(238, 95, 95, 0.9);
+    border-radius: 10px;
+    text-align: left;
+    overflow: hidden; 
+}
+
+
+.content .card h3 {
+    color: orange;
+    font-size: 28px;
+}
+
+.content .card img {
+    float: right;
+    width: 50px;
+    height: 50px;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 5px;
+}
