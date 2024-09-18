@@ -74,6 +74,28 @@ nav ul li a {
     height: 50px;
 }
 
+.html_box .caja{
+    margin: 15px auto;
+    padding: 10px;
+    width: 80%;
+    background-color: rgba(134, 48, 151, 0.9);
+    border-radius: 10px;
+    text-align: left;
+    overflow: hidden; 
+}
+
+
+.html_box .caja h3 {
+    color: coral;
+    font-size: 28px;
+}
+
+.html_box .caja img {
+    float: right;
+    width: 50px;
+    height: 50px;
+}
+
 footer {
     margin-top: 20px;
     text-align: center;
