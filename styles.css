@@ -84,7 +84,6 @@ nav ul li a {
     overflow: hidden; 
 }
 
-
 .html_box .caja h3 {
     color: coral;
     font-size: 28px;
@@ -94,6 +93,76 @@ nav ul li a {
     float: right;
     width: 50px;
     height: 50px;
+}
+
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 20px; 
+    border-radius: 10px; 
+}
+
+.box {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+
+.dns {
+    border-radius: 10px;
+    grid-column: 1; /* Primer cuadro ocupa la primera columna */
+    grid-row: 1 / 2;
+    border-top: 5px solid red;
+    background-color: rgba(184, 79, 10, 0.5);
+}
+
+.html {
+    grid-column: 2; /* Segundo cuadro en la segunda columna */
+    grid-row: 1;
+    border-top: 5px solid magenta;
+    background-color: rgba(129, 155, 34, 0.5);
+
+}
+
+.css {
+    grid-column: 2; /* Tercer cuadro en la tercera columna */
+    grid-row: 2;
+    border-top: 5px solid cyan;
+    background-color: rgba(141, 20, 56, 0.5);
+
+}
+
+.tcp-ip {
+    grid-column: 3; /* Cuarto cuadro centrado en la segunda columna */
+    grid-row: 1 / 2;
+    border-top: 5px solid blue;
+    background-color: rgba(164, 131, 165, 0.5);
+}
+
+.box h3 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.box p {
+    font-size: 1em;
+}
+
+.box img {
+    margin-top: px;
+    width: 50px;
+    height: 50px;
+    float: right;
 }
 
 footer {
