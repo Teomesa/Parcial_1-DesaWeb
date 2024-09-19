@@ -7,6 +7,15 @@ body {
     text-align: center;
 }
 
+body.fondo-comun{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('Fondo.jpg');
+    background-size: 350px;
+    color: white;
+    text-align: center;
+}
+
 header h1, header h2 {
     margin: 0;
     padding: 10px;
